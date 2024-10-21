@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # ./app-compose.sh <option>[--start|--destroy]
 
 OPTION=$1
