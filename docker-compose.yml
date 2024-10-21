@@ -1,8 +1,5 @@
-version: '3'
-
 services:
   app:
-  
     build: .
     image: wave_app:1.0
     container_name: wave_app
@@ -24,11 +21,10 @@ services:
     environment:
       GF_SECURITY_ALLOW_EMBEDDING: "true"
       GF_AUTH_ANONYMOUS_ENABLED: "true"
-      GF_AUTH_ANONYMOUS_ORG_ROLE: 'Viewer'
+      GF_AUTH_ANONYMOUS_ORG_ROLE: "Viewer"
       GF_AUTH_BASIC_ENABLED: "true"
       GF_INSTALL_PLUGINS: "marcusolsson-csv-datasource"
       GF_PLUGIN_ALLOW_LOCAL_MODE: "true"
-
 
     depends_on:
       - app
