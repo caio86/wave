@@ -25,3 +25,4 @@ build/
 .flake8
 
 app/provision/config.yaml
+.direnv
