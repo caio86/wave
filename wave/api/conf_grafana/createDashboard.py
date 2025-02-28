@@ -513,7 +513,7 @@ data_docker = {
             {
                 "datasource": {
                     "type": "marcusolsson-csv-datasource",
-                            "uid": ""
+                    "uid": ""
                 },
                 "fieldConfig": {
                     "defaults": {
@@ -699,7 +699,7 @@ data_docker = {
                 {
                 "datasource": {
                     "type": "prometheus",
-                    "uid": "cedoc1prtq0w0b"
+                    "uid": ""
                 },
                 "disableTextWrap": False,
                 "editorMode": "builder",
