@@ -10,26 +10,25 @@
 
 ### Checking if Python3 is installed and it's version:
 
-![wave-version-python3](https://raw.githubusercontent.com/danilocb21/new_wave/c2974ed5a4b03ab40aa85418343aed6240e7c49f/screenshots/wave-version-python32.png)
+![wave-version-python3](./screenshots/wave-version-python32.png)
 
 ### Additionally, the VirtualEnv virtual environment is required:
 
-![wave-version-venv](https://raw.githubusercontent.com/danilocb21/new_wave/c2974ed5a4b03ab40aa85418343aed6240e7c49f/screenshots/wave-version-venv2.png)
-
+![wave-version-venv](./screenshots/wave-version-venv2.png)
 
 ### Checking the Docker and docker compose components:
 
-![wave-version-docker](https://raw.githubusercontent.com/danilocb21/new_wave/c2974ed5a4b03ab40aa85418343aed6240e7c49f/screenshots/wave-version-docker2.png)
+![wave-version-docker](./screenshots/wave-version-docker2.png)
 
-![wave-version-docker-compose](https://raw.githubusercontent.com/danilocb21/new_wave/c2974ed5a4b03ab40aa85418343aed6240e7c49f/screenshots/wave-version-docker-compose2.png)
+![wave-version-docker-compose](./screenshots/wave-version-docker-compose2.png)
 
 ### Checking what version of Virtualbox is installed:
 
-![wave-version-virtualbox](https://raw.githubusercontent.com/danilocb21/new_wave/c2974ed5a4b03ab40aa85418343aed6240e7c49f/screenshots/wave-version-virtualbox2.png)
+![wave-version-virtualbox](./screenshots/wave-version-virtualbox2.png)
 
 ### Checking what version of Vagrant is installed:
 
-![wave-version-vagrant](https://raw.githubusercontent.com/danilocb21/new_wave/c2974ed5a4b03ab40aa85418343aed6240e7c49f/screenshots/wave-version-vagrant2.png)
+![wave-version-vagrant](./screenshots/wave-version-vagrant2.png)
 
 The versions shown in the figures were those tested at the time of this manual's creation.
 
@@ -45,13 +44,13 @@ $ ./app-compose.sh --start
 
 ### Checking the execution in a Docker enviroment:
 
-![wave-cli-docker](https://raw.githubusercontent.com/danilocb21/new_wave/c2974ed5a4b03ab40aa85418343aed6240e7c49f/screenshots/wave-cli-docker2.png)
+![wave-cli-docker](./screenshots/wave-cli-docker2.png)
 
 As can be seen in the figure above, the WAVE Initialization module uses two containers for its execution: wave-app and grafana-oss. On the left side of the figure, we have the output of the WAVE startup command.
 
 ### The WAVE Web module can be accessed via a browser
 
-![wave-web-home](https://raw.githubusercontent.com/danilocb21/new_wave/c2974ed5a4b03ab40aa85418343aed6240e7c49f/screenshots/wave-2.png)
+![wave-web-home](./screenshots/wave-2.png)
 
 The form contains fields for entering network data for both the traffic load source and destination. In addition to the IP address, it is possible to select environment provisioning through a container or a virtual machine with configurable memory size and number of virtual CPUs. Finally, the user can choose which workload model to apply, either sinusoid, flashcrowd or step and if they want to use micro-burst as well.
 
